@@ -1,0 +1,35 @@
+const cont = document.getElementById('container-principal');
+const ham1 = document.querySelector('.ham');
+const xis1 = document.querySelector('.xis');
+
+
+
+
+function mostrarPlaca(){
+    cortes.style.top = '-60rem';
+    whats.style.top = '-60rem';
+    placa.style.top = '0';
+    xis1.style.transform = 'rotate(90deg)';
+    ham1.style.transform = 'rotate(0deg)'
+    cont.style.transform = 'rotate(0deg)'
+}
+
+
+function mostrarMenu1(){
+    ham1.style.transform = 'rotate(-90deg)';
+    xis1.style.transform = 'rotate(0)';
+    cont.style.transform = 'rotate(-20deg)'
+    
+}
+
+function fecharMenu1(){
+    ham1.style.transform = 'rotate(0)';
+    xis1.style.transform = 'rotate(90deg)';
+    cont.style.transform = 'rotate(0)'
+    
+}
+
+
+casa.addEventListener('click', mostrarCortes);
+ham1.addEventListener('click', mostrarMenu1);
+xis1.addEventListener('click', fecharMenu1);
