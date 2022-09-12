@@ -1,9 +1,0 @@
-const ham = document.querySelector('.ham');
-const xis = document.querySelector('.xis');
-
-
-function mostrarMenu(){
-    ham.style.transform = 'rotate(90deg)';
-}
-
-ham.addEvenetListener('click' mostrarMenu);
