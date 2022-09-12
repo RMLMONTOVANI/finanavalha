@@ -1,0 +1,9 @@
+const cortes = document.getElementById('cortes');
+const tesoura = document.getElementById('tesoura');
+
+function mostrarCortes(){
+    cortes.style.display = 'block';
+}
+
+
+tesoura.addEventListener('click', mostrarCortes)
