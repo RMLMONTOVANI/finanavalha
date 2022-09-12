@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Anybody:wght@400;500;600;700;800;900&family=Bree+Serif&family=Cinzel:wght@400;500;600;700;800;900&family=Combo&family=Exo+2:ital,wght@1,500&family=Great+Vibes&family=Inter:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:wght@400;500;600;700;800;900&family=Monoton&family=Nanum+Pen+Script&family=Oswald:wght@400;500;600;700&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Sanchez&family=Shadows+Into+Light&family=Titan+One&family=Ultra&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: black;
+    
+    
+}
+
+
+
+.ham, .xis{
+    font-size: 2.5rem;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    left: 0.8rem;
+    top: 0.8rem;
+    transform-origin: -0.8rem -0.8rem;
+    transition: transform 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.xis{
+    left: 1.1rem;
+    transform: rotate(90deg);
+}
+
+#circulo{
+    height: 11rem;
+    width: 11rem;
+    background: #5b3536;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 2;
+    
+    
+}
+
+
+#container-principal{
+    width: 100vw
+    height: 100vh;
+    
+    position: absolute;
+    top: 0;
+    transform-origin: 0 0;
+    transition: transform 250ms ease-in-out;
+    
+   
+    
+}
+
+#conteudo-principal h1{
+    font-family: 'Ultra', serif;
+    font-size: 58px;
+    
+}
+
+#conteudo-principal img{
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu{
+    position: relative;
+    top: 15rem;
+    display: block;
+    flex-flow: column;
+    gap: 2.5rem;
+    width: 100vw;
+    height:50vh;
+    background:url("../img/")
+    
+}
+
+#menu li{
+    position: absolute;
+    top: 300px;
+    display: block;
+    transition: transform: 250ms ease-in-out;
+    
+}
+
+#casa{
+    top: -1rem;
+    
+}
+
+#tesoura{
+    top: 4rem;
+    
+}
+
+#whatsapp{
+    top: 9rem;
+    
+}
+
+
+
+#menu i{
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+#menu i:hover{
+    color: #e19c41
+    
+}
+
+#menu li:hover{
+    color: #262626
+}
+
+#background{
+    height: 100vh;
+    width: 100vw;
+    
+    position: absolute;
+    margin: 0 auto;
+    max-width: 100%;
+    background: url("../img/barber.webp");
+    opacity: 0.18;
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
