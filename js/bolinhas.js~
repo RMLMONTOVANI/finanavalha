@@ -1,6 +1,0 @@
-const img = document.getElementById('img-job');
-const p = document.getElementById('p-job');
-
-
-
-
